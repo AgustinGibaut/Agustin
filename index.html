@@ -24,10 +24,10 @@
       </label>
       <nav>
         <ul>
-          <li><a href="#inicio">Inicio</a></li>
-          <li><a href="#skils">stack</a></li>
-          <li><a href="#discord">Discord</a></li>
-          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="#inicio"><i class="fa-solid fa-house"></i> Inicio</a></li>
+          <li><a href="#skils"><i class="fa-solid fa-laptop-code"></i> Stack</a></li>
+          <li><a href="#discord"><i class="fa-brands fa-discord"></i> Discord</a></li>
+          <li><a href="#projects"><i class="fa-solid fa-diagram-project"></i> Proyectos</a></li>          
         </ul>
       </nav>
     </header>
@@ -35,24 +35,29 @@
   
 
 
-  <section id="inicio" class="inicio">
-    <div class="contenido-inicio">
-      <div class="texto-inicio">
-        <h1 class="typing-title">¡Hola! Soy Agustín</h1>
-        <p>Desarrollador de software apasionado por el <strong>frontend</strong> y la <strong>creatividad</strong>.</p>
-        <em class="tag-line">🔍 Puedes buscarme en:</em>
-
-        <div class="redes-sociales">
-          <a href="#"><i class="fab fa-github"></i></a>
-          <a href="#"><i class="fab fa-linkedin"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
+    <section id="inicio" class="inicio position-relative">
+      <!-- Partículas -->
+      <div id="particles-js"></div>
+    
+      <!-- Contenido principal encima de las partículas -->
+      <div class="contenido-inicio position-relative">
+        <div class="texto-inicio">
+          <h1 class="typing-title">¡Hola! Soy Agustín</h1>
+          <p>Desarrollador de software apasionado por el <strong>frontend</strong> y la <strong>creatividad</strong>.</p>
+          <em class="tag-line">🔍 Puedes buscarme en:</em>
+    
+          <div class="redes-sociales">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="imagen-inicio">
+          <img src="imagenes/logo.jpg" alt="Foto de perfil" class="img-inicio" />
         </div>
       </div>
-      <div class="imagen-inicio">
-        <img src="imagenes/logo.jpg" alt="Foto de perfil" class="img-inicio" />
-      </div>
-    </div>
-  </section>
+    </section>
+    
 
 
   <section id="skills" class="skills-section py-5">
@@ -163,6 +168,8 @@
     <img src="imagenes/cute-cat-wearing-glasses-icon-character-free-png.webp" alt="Cargando..." />
   </div>
 
-   <script src="script.js"></script>
+
+  <script src="script.js"></script>
+
 </body>
 </html>

@@ -39,12 +39,7 @@ body {
 
 
 
-/* Reset básico */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 /* Contenedor NAV fijo */
 header {
@@ -95,6 +90,9 @@ nav ul {
 }
 
 nav ul li a {
+  border: 2px solid yellow;
+  padding: 13px;
+  border-radius: 13px;
   color: white;
   text-decoration: none;
   font-size: 1.1rem;
