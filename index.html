@@ -12,6 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 
+    <!-- Añadir particles.js -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   </head>
   <body class="bg-black text-white">
 
@@ -25,16 +27,13 @@
       <nav>
         <ul>
           <li><a href="#inicio"><i class="fa-solid fa-house"></i> Inicio</a></li>
-          <li><a href="#skils"><i class="fa-solid fa-laptop-code"></i> Stack</a></li>
+          <li><a href="#skills"><i class="fa-solid fa-laptop-code"></i> Stack</a></li>
           <li><a href="#discord"><i class="fa-brands fa-discord"></i> Discord</a></li>
           <li><a href="#projects"><i class="fa-solid fa-diagram-project"></i> Proyectos</a></li>          
         </ul>
       </nav>
     </header>
   
-  
-
-
     <section id="inicio" class="inicio position-relative">
       <!-- Partículas -->
       <div id="particles-js"></div>
@@ -58,118 +57,149 @@
       </div>
     </section>
     
+    <section id="skills" class="skills-section py-5">
+      <div class="container">
+        <h2 class="text-white display-5 fw-bold mb-5 border-bottom border-warning pb-2"> <strong>Mis</strong> Habilidades</h2>
 
-
-  <section id="skills" class="skills-section py-5">
-    <div class="container">
-      <h2 class="text-white display-5 fw-bold mb-5 border-bottom border-warning pb-2"> <strong>Mis</strong> Habilidades</h2>
-
-      <section class="skills-section">
-
-   
-      <div class="skills-container">
-        <div class="tech-card"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
-        <div class="tech-card"><i class="fab fa-js"></i><span>JavaScript</span></div>
-        <div class="tech-card"><i class="fab fa-react"></i><span>React.js</span></div>
-        <div class="tech-card"><i class="fab fa-node"></i><span>Node.js</span></div>
-        <div class="tech-card"><i class="fas fa-fire"></i><span>Firebase</span></div>
-        <div class="tech-card"><i class="fab fa-git-alt"></i><span>Git</span></div>
-        <div class="tech-card"><i class="fab fa-github"></i><span>GitHub</span></div>
-      </div>
-      
-  </section>
-
-
-<section id="discord" class="discord-section">
-  <div class="discord-container">
-    <div class="discord-card">
-      <div class="discord-banner">
-        <div class="discord-avatar">
-          <img src="imagenes/logo.jpg" alt="Profile Avatar" />
-          <div class="discord-status online"></div>
-        </div>
-      </div>
-      <div class="discord-content">
-        <div class="discord-header">
-          <h3>AgustinG</h3>
-          <span class="discord-tag"></span>
-        </div>
-        <div class="discord-badges">
-          <span class="badge nitro"><i class="fab fa-discord"></i> Nitro</span>
-          <span class="badge dev"><i class="fas fa-code"></i> Developer</span>
-        </div>
-        <p class="discord-about">¡Unite a mi servidor <em>en donde hay gente que le gusta lo mismo que haces tu y compartimos ideas y demas</em> y compartamos proyectos!</p>
-        <div class="discord-stats">
-          <div class="stat">
-            <i class="fas fa-users"></i>
-            <span>150+ miembros</span>
+        <section class="skills-section">
+          <div class="skills-container">
+            <div class="tech-card"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
+            <div class="tech-card"><i class="fab fa-js"></i><span>JavaScript</span></div>
+            <div class="tech-card"><i class="fab fa-react"></i><span>React.js</span></div>
+            <div class="tech-card"><i class="fab fa-node"></i><span>Node.js</span></div>
+            <div class="tech-card"><i class="fas fa-fire"></i><span>Firebase</span></div>
+            <div class="tech-card"><i class="fab fa-git-alt"></i><span>Git</span></div>
+            <div class="tech-card"><i class="fab fa-github"></i><span>GitHub</span></div>
           </div>
-          <div class="stat">
-            <i class="fas fa-star"></i>
-            <span>Nivel 2</span>
+        </section>
+      </div>
+    </section>
+
+    <section id="discord" class="discord-section">
+      <div class="discord-container">
+        <div class="discord-card">
+          <div class="discord-banner">
+            <div class="discord-avatar">
+              <img src="imagenes/logo.jpg" alt="Profile Avatar" />
+              <div class="discord-status online"></div>
+            </div>
+          </div>
+          <div class="discord-content">
+            <div class="discord-header">
+              <h3>AgustinG</h3>
+              <span class="discord-tag"></span>
+            </div>
+            <div class="discord-badges">
+              <span class="badge nitro"><i class="fab fa-discord"></i> Nitro</span>
+              <span class="badge dev"><i class="fas fa-code"></i> Developer</span>
+            </div>
+            <p class="discord-about">¡Unite a mi servidor <em>en donde hay gente que le gusta lo mismo que haces tu y compartimos ideas y demas</em> y compartamos proyectos!</p>
+            <div class="discord-stats">
+              <div class="stat">
+                <i class="fas fa-users"></i>
+                <span>150+ miembros</span>
+              </div>
+              <div class="stat">
+                <i class="fas fa-star"></i>
+                <span>Nivel 2</span>
+              </div>
+            </div>
+            <a href="https://discord.gg/nJF7ezDEk6" target="_blank" class="discord-join">
+              <i class="fab fa-discord"></i>
+              Unirme al Servidor
+            </a>
           </div>
         </div>
-        <a href="https://discord.gg/nJF7ezDEk6" target="_blank" class="discord-join">
-          <i class="fab fa-discord"></i>
-          Unirme al Servidor
-        </a>
       </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+      <h2>Mis Proyectos</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-image">
+            <img src="techPC.jpg" alt="PelisInfo Preview">
+          </div>
+          <div class="project-content">
+            <h3>TechPC</h3>
+            <p>sitio web de computacion.</p>
+            <div class="project-tags">
+              <span>CSS3</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/AgustinGibaut/TechPC" target="_blank"><i class="fab fa-github"></i> Ver código</a>
+              <a href="https://tech-pc-2x7n.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c" alt="AuthApp Preview">
+          </div>
+          <div class="project-content">
+            <h3>proximamente</h3>
+            <p>proximamente.</p>
+            <div class="project-tags">
+              <span>Firebase</span>
+              <span>React</span>
+              <span>Auth</span>
+            </div>
+            <div class="project-links">
+              <a href="#" target="_blank"><i class="fab fa-github"></i> Ver código</a>
+              <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <div class="loader">
+      <img src="imagenes/cute-cat-wearing-glasses-icon-character-free-png.webp" alt="Cargando..." />
     </div>
-  </div>
-</section>
+
+    <script src="script.js"></script>
 
 
+    <script>
+      particlesJS('particles-js', {
+        particles: {
+          number: {
+            value: 100, 
+            density: {
+              enable: true,
+              value_area: 800
+            }
+          },
+          shape: {
+            type: "circle", 
+          },
+          size: {
+            value: 5,
+          },
+          opacity: {
+            value: 0.7, 
+            random: true, 
+          },
+          color: {
+            value: "#b78e00", 
+          },
+          line_linked: {
+            enable: false, 
+          }
+        },
+        interactivity: {
+          events: {
+            onhover: {
+              enable: false 
+            }
+          }
+        },
+        retina_detect: true 
+      });
+    </script>
+    
 
-<section id="projects" class="projects-section">
-  <h2>Mis Proyectos</h2>
-  <div class="projects-grid">
-      <article class="project-card">
-          <div class="project-image">
-              <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c" alt="PelisInfo Preview">
-          </div>
-          <div class="project-content">
-              <h3>Proximamente</h3>
-              <p>proximamente.</p>
-              <div class="project-tags">
-                  <span>React</span>
-                  <span>CSS3</span>
-              </div>
-              <div class="project-links">
-                  <a href="#" target="_blank"><i class="fab fa-github"></i> Ver código</a>
-                  <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
-              </div>
-          </div>
-      </article>
-
-      <article class="project-card">
-          <div class="project-image">
-              <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c" alt="AuthApp Preview">
-          </div>
-          <div class="project-content">
-              <h3>proximamente</h3>
-              <p>proximamente.</p>
-              <div class="project-tags">
-                  <span>Firebase</span>
-                  <span>React</span>
-                  <span>Auth</span>
-              </div>
-              <div class="project-links">
-                  <a href="#" target="_blank"><i class="fab fa-github"></i> Ver código</a>
-                  <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
-              </div>
-          </div>
-      </article>
-  </div>
-</section>
-
-  </section>
-
-  <div class="loader">
-    <img src="imagenes/cute-cat-wearing-glasses-icon-character-free-png.webp" alt="Cargando..." />
-  </div>
-
-
-  <script src="script.js"></script>
-
-</body>
+    
+  </body>
 </html>
