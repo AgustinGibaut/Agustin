@@ -31,3 +31,12 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     if (target) target.scrollIntoView({ behavior: 'smooth' });
   });
 });
+
+function descargarCV() {
+  const enlace = document.createElement("a");
+  enlace.href = "cv-AgustinGibaut.pdf.pdf"; // este es tu archivo real
+  enlace.download = "AgustinGibaut-CV.pdf"; // nombre con el que se descarga
+  document.body.appendChild(enlace);
+  enlace.click();
+  document.body.removeChild(enlace);
+}
